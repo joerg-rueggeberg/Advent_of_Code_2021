@@ -18,11 +18,9 @@ while len(course) != 0:
         print(f"{temp[0]}: {temp[1]} | total: {horizontal} horizontal - {aim} aim")
     elif temp[0] == "up":
         aim -= int(temp[1])
-        # depth -= int(temp[1])
         print(f"{temp[0]}: {temp[1]} | total: {depth} depth - {aim} aim")
     else:
         aim += int(temp[1])
-        # depth += int(temp[1])
         print(f"{temp[0]}: {temp[1]} | total: {depth} depth - {aim} aim")
 
     del course[0]
